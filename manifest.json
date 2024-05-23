@@ -1,0 +1,25 @@
+{
+  "name": "Samoosa",
+  "version": "1.0.0",
+  "description": "Samoosa is your ultimate companion for effortlessly obtaining summaries of YouTube videos. With Samoosa, you can now dive into the core essence of any video without the need to watch it entirely.",
+  "manifest_version": 3,
+  "author": "Pranav S V",
+  "icons": {
+    "48": "static/samoosa_favicon.jpg",
+    "128": "static/samoosa_favicon.jpg"
+  },
+  "action": {
+    "default_popup": "./templates/index.html"
+  },
+     "permissions": [
+        "activeTab",
+        "scripting"
+     ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+  "script-src": "'self'"
+}
+
+}

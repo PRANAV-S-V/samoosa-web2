@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the box is centered vertically */
+  margin: 0; /* Remove default margin */
+  background-color: #31363F; /* Optional background color */
+}
+
+.box-content {
+  width: 30rem; /* Adjust width as needed */
+  padding: 2rem; /* Add padding for spacing inside the box */
+  background-color: white; /* Box background color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+}
+
+.box-content input {
+  width: 100%;
+  margin: 1rem 0; /* Adjust top and bottom margin */
+}
+
+.summariseBtn {
+  background-color: #F3CA52;
+  color: #151515;
+  margin: 1rem 0; /* Adjust top and bottom margin */
+}
+
+.credit-box{
+  display: flex;
+  justify-content: center;
+}
+.credit-text{
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+.samoosa-title{
+  text-align: center;
+  font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 3rem;
+  color: #AF8260;
+}
+
+.result-text-title{
+  font-family: "Acme", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.result-text-box {
+    max-height: 200px; /* Set the maximum height of the result box */
+    overflow: auto; /* Enable scrolling if content overflows */
+    padding-right: 20px; /* Add padding to accommodate scrollbar */
+}
+
+.result-text {
+    /* Additional styles for the text content inside the result box */
+    margin-bottom: 0; /* Remove margin to avoid extra space at the bottom */
+}
